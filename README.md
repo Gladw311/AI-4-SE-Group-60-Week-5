@@ -1,143 +1,134 @@
 # AI-4-SE-Group-60-Week-5
 AI Development Workflow Assignment
 
-## Understanding the AI Development Workflow
+Assignment: Understanding the AI Development Workflow
+Course: AI for Software Engineering
+Duration: 7 days
+Total Points: 100
 
-**Course:** AI for Software Engineering
-**Duration:** 7 days
-**Total Points:** 100
+Objective & Guidelines
 
----
+This assignment tests your ability to apply the AI Development Workflow to a real-world problem. You will demonstrate understanding of key stages—from problem definition to deployment—and critically analyze challenges and ethical considerations.
 
-### 📋 Table of Contents
+The assignment should be handled in peer groups. 
 
-1. [Project Overview](#project-overview)
-2. [Assignment Structure](#assignment-structure)
-3. [Getting Started](#getting-started)
-4. [Submission Guidelines](#submission-guidelines)
-5. [Grading Rubric](#grading-rubric)
-6. [Directory Layout](#directory-layout)
-7. [Parts Breakdown](#parts-breakdown)
-8. [References](#references)
+Submission Guidelines
 
----
+PDF, 5–10 pages (excluding diagrams). Include section headings and references.
 
-### Project Overview
+GitHub Repository with all codes well commented. 
 
-This assignment tests your ability to apply the **AI Development Workflow** to a real-world scenario. You will:
+Share the PDF as an article in the PLP Academy Community .
 
-* Define and scope an AI problem
-* Design data collection and preprocessing strategies
-* Develop, evaluate, and deploy a model
-* Critically analyze ethical and practical challenges
+Grading Rubric
 
-Work in **peer groups** to collaborate on solutions and share insights.
+Completeness: All sections addressed (30%).
 
----
+Accuracy: Technical correctness (40%).
 
-### Assignment Structure
+Critical Analysis: Depth of ethical and practical insights (20%).
 
-The assignment is divided into four parts:
+Clarity: Organization and presentation (10%).
 
-1. **Short Answer Questions** (30 points)
-2. **Case Study Application** (40 points)
-3. **Critical Thinking** (20 points)
-4. **Reflection & Workflow Diagram** (10 points)
 
-Each part has specific tasks and point allocations. Refer to [Parts Breakdown](#parts-breakdown) below for details.
 
----
+Part 1: Short Answer Questions (30 points)
 
-### Getting Started
+1. Problem Definition (6 points)
 
-1. **Clone the repository**:
+Define a hypothetical AI problem (e.g., "Predicting student dropout rates").
 
-   ```bash
-   git clone https://github.com/your-org/ai-dev-workflow.git
-   cd ai-dev-workflow
-   ```
-2. **Install requirements** (if any):
+List 3 objectives and 2 stakeholders.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Organize your work** in clearly named directories and files. Comment all code thoroughly.
+Propose 1 Key Performance Indicator (KPI) to measure success.
 
----
+2. Data Collection & Preprocessing (8 points)
 
-### Submission Guidelines
+Identify 2 data sources for your problem.
 
-* **PDF Report**: 5–10 pages (excluding diagrams), structured with headings and references.
-* **GitHub Repo**: Include all source code and notebooks. Ensure comments and README are up to date.
-* **Community Article**: Publish the PDF as an article in the PLP Academy Community.
+Explain 1 potential bias in the data.
 
-Submit by **\[Due Date]** via your course portal.
+Outline 3 preprocessing steps (e.g., handling missing data, normalization).
 
----
+3. Model Development (8 points)
 
-### Grading Rubric
+Choose a model (e.g., Random Forest, Neural Network) and justify your choice.
 
-| Criterion         | Weight | Description                              |
-| ----------------- | ------ | ---------------------------------------- |
-| Completeness      | 30%    | All required sections are addressed.     |
-| Accuracy          | 40%    | Technical correctness of methods & code. |
-| Critical Analysis | 20%    | Depth of ethical and practical insights. |
-| Clarity           | 10%    | Organization and presentation quality.   |
+Describe how you would split data into training/validation/test sets.
 
----
+Name 2 hyperparameters you would tune and why.
 
-### Directory Layout
+4. Evaluation & Deployment (8 points)
 
-```
-ai-dev-workflow/
-├── Part1_ShortAnswers/        # Q&A responses (PDF & markdown)
-├── Part2_CaseStudy/           # Hospital readmission case study
-│   ├── data/                  # Sample datasets
-│   ├── notebooks/             # Jupyter notebooks
-│   └── scripts/               # Model training & evaluation scripts
-├── Part3_CriticalThinking/    # Essays on ethics & trade-offs
-├── Part4_Reflection/          # Final reflection & workflow diagram
-├── figures/                   # Diagrams and flowcharts
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
-```
+Select 2 evaluation metrics and explain their relevance.
 
----
+What is concept drift? How would you monitor it post-deployment?
 
-### Parts Breakdown
+Describe 1 technical challenge during deployment (e.g., scalability).
 
-#### Part 1: Short Answer Questions (30 pts)
+Part 2: Case Study Application (40 points)
 
-* **Problem Definition**: Define an AI problem, list objectives & stakeholders, propose a KPI.
-* **Data Collection & Preprocessing**: Identify sources, discuss bias, outline steps.
-* **Model Development**: Choose model, data splitting, hyperparameters.
-* **Evaluation & Deployment**: Pick metrics, explain concept drift, deployment challenge.
+Scenario: A hospital wants an AI system to predict patient readmission risk within 30 days of discharge.
 
-#### Part 2: Case Study Application (40 pts)
+Tasks:
 
-* **Problem Scope** (5 pts)
-* **Data Strategy** (10 pts): Sources, ethics, preprocessing pipeline
-* **Model Development** (10 pts): Model choice, confusion matrix & metrics
-* **Deployment** (10 pts): Integration steps, healthcare compliance
-* **Optimization** (5 pts): Overfitting mitigation
+Problem Scope (5 points): Define the problem, objectives, and stakeholders.
 
-#### Part 3: Critical Thinking (20 pts)
+Data Strategy (10 points):
 
-* **Ethics & Bias** (10 pts): Impact of bias, mitigation strategy
-* **Trade-offs** (10 pts): Interpretability vs. accuracy, resource constraints
+Propose data sources (e.g., EHRs, demographics).
 
-#### Part 4: Reflection & Workflow Diagram (10 pts)
+Identify 2 ethical concerns (e.g., patient privacy).
 
-* **Reflection** (5 pts): Challenges & improvements
-* **Diagram** (5 pts): Flowchart of AI workflowStages
+Design a preprocessing pipeline (include feature engineering steps).
 
----
+Model Development (10 points):
 
-### References
+Select a model and justify it.
 
-* CRISP-DM Framework Lecture Notes
-* Course Slides: Preprocessing & Evaluation Metrics
-* PLP Academy Community Articles
+Create a confusion matrix and calculate precision/recall (hypothetical data).
 
-Good luck, and may your AI solutions be robust, ethical, and impactful! 🚀
+Deployment (10 points):
+
+Outline steps to integrate the model into the hospital’s system.
+
+How would you ensure compliance with healthcare regulations (e.g., HIPAA)?
+
+Optimization (5 points): Propose 1 method to address overfitting.
+
+Part 3: Critical Thinking (20 points)
+
+Ethics & Bias (10 points):
+
+How might biased training data affect patient outcomes in the case study?
+
+Suggest 1 strategy to mitigate this bias.
+
+Trade-offs (10 points):
+
+Discuss the trade-off between model interpretability and accuracy in healthcare.
+
+If the hospital has limited computational resources, how might this impact model choice?
+
+Part 4: Reflection & Workflow Diagram (10 points)
+
+Reflection (5 points):
+
+What was the most challenging part of the workflow? Why?
+
+How would you improve your approach with more time/resources?
+
+Diagram (5 points):
+
+Sketch a flowchart of the AI Development Workflow, labeling all stages.
+
+Tip: Review lecture notes on preprocessing, evaluation metrics, and the CRISP-DM framework.
+
+This assignment encourages holistic thinking about AI projects while emphasizing ethics and real-world constraints. Good luck! 🚀
+
+
+
+
+
+
 
